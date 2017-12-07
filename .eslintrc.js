@@ -87,7 +87,11 @@ module.exports = {
 
     // ESLint plugin for prettier formatting
     // https://github.com/prettier/eslint-plugin-prettier
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "import/no-dynamic-require": "off",
+    "global-require": "off",
+    "consistent-return": "off",
+    "no-param-reassign": "off"
   },
 
   settings: {
